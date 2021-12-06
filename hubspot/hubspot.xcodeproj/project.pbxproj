@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81BDE9BB275DE5BA00B924C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDE9BA275DE5BA00B924C5 /* AppDelegate.swift */; };
+		81BDE9BD275DE5BA00B924C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDE9BC275DE5BA00B924C5 /* SceneDelegate.swift */; };
+		81BDE9BF275DE5BA00B924C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDE9BE275DE5BA00B924C5 /* ViewController.swift */; };
+		81BDE9C2275DE5BA00B924C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BDE9C0275DE5BA00B924C5 /* Main.storyboard */; };
+		81BDE9C4275DE5BC00B924C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BDE9C3275DE5BC00B924C5 /* Assets.xcassets */; };
+		81BDE9C7275DE5BC00B924C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BDE9C5275DE5BC00B924C5 /* LaunchScreen.storyboard */; };
+		81BDE9D2275DE5BD00B924C5 /* hubspotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDE9D1275DE5BD00B924C5 /* hubspotTests.swift */; };
+		81BDE9DD275DE5BD00B924C5 /* hubspotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDE9DC275DE5BD00B924C5 /* hubspotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81BDE9CE275DE5BD00B924C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BDE9AF275DE5BA00B924C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81BDE9B6275DE5BA00B924C5;
+			remoteInfo = hubspot;
+		};
+		81BDE9D9275DE5BD00B924C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BDE9AF275DE5BA00B924C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81BDE9B6275DE5BA00B924C5;
+			remoteInfo = hubspot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81BDE9B7275DE5BA00B924C5 /* hubspot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hubspot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BDE9BA275DE5BA00B924C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81BDE9BC275DE5BA00B924C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81BDE9BE275DE5BA00B924C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81BDE9C1275DE5BA00B924C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81BDE9C3275DE5BC00B924C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81BDE9C6275DE5BC00B924C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81BDE9C8275DE5BC00B924C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BDE9CD275DE5BD00B924C5 /* hubspotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hubspotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BDE9D1275DE5BD00B924C5 /* hubspotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hubspotTests.swift; sourceTree = "<group>"; };
+		81BDE9D3275DE5BD00B924C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BDE9D8275DE5BD00B924C5 /* hubspotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hubspotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BDE9DC275DE5BD00B924C5 /* hubspotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hubspotUITests.swift; sourceTree = "<group>"; };
+		81BDE9DE275DE5BD00B924C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81BDE9B4275DE5BA00B924C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BDE9CA275DE5BD00B924C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BDE9D5275DE5BD00B924C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81BDE9AE275DE5BA00B924C5 = {
+			isa = PBXGroup;
+			children = (
+				81BDE9B9275DE5BA00B924C5 /* hubspot */,
+				81BDE9D0275DE5BD00B924C5 /* hubspotTests */,
+				81BDE9DB275DE5BD00B924C5 /* hubspotUITests */,
+				81BDE9B8275DE5BA00B924C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81BDE9B8275DE5BA00B924C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81BDE9B7275DE5BA00B924C5 /* hubspot.app */,
+				81BDE9CD275DE5BD00B924C5 /* hubspotTests.xctest */,
+				81BDE9D8275DE5BD00B924C5 /* hubspotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81BDE9B9275DE5BA00B924C5 /* hubspot */ = {
+			isa = PBXGroup;
+			children = (
+				81BDE9BA275DE5BA00B924C5 /* AppDelegate.swift */,
+				81BDE9BC275DE5BA00B924C5 /* SceneDelegate.swift */,
+				81BDE9BE275DE5BA00B924C5 /* ViewController.swift */,
+				81BDE9C0275DE5BA00B924C5 /* Main.storyboard */,
+				81BDE9C3275DE5BC00B924C5 /* Assets.xcassets */,
+				81BDE9C5275DE5BC00B924C5 /* LaunchScreen.storyboard */,
+				81BDE9C8275DE5BC00B924C5 /* Info.plist */,
+			);
+			path = hubspot;
+			sourceTree = "<group>";
+		};
+		81BDE9D0275DE5BD00B924C5 /* hubspotTests */ = {
+			isa = PBXGroup;
+			children = (
+				81BDE9D1275DE5BD00B924C5 /* hubspotTests.swift */,
+				81BDE9D3275DE5BD00B924C5 /* Info.plist */,
+			);
+			path = hubspotTests;
+			sourceTree = "<group>";
+		};
+		81BDE9DB275DE5BD00B924C5 /* hubspotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81BDE9DC275DE5BD00B924C5 /* hubspotUITests.swift */,
+				81BDE9DE275DE5BD00B924C5 /* Info.plist */,
+			);
+			path = hubspotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81BDE9B6275DE5BA00B924C5 /* hubspot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BDE9E1275DE5BD00B924C5 /* Build configuration list for PBXNativeTarget "hubspot" */;
+			buildPhases = (
+				81BDE9B3275DE5BA00B924C5 /* Sources */,
+				81BDE9B4275DE5BA00B924C5 /* Frameworks */,
+				81BDE9B5275DE5BA00B924C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hubspot;
+			productName = hubspot;
+			productReference = 81BDE9B7275DE5BA00B924C5 /* hubspot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81BDE9CC275DE5BD00B924C5 /* hubspotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BDE9E4275DE5BD00B924C5 /* Build configuration list for PBXNativeTarget "hubspotTests" */;
+			buildPhases = (
+				81BDE9C9275DE5BD00B924C5 /* Sources */,
+				81BDE9CA275DE5BD00B924C5 /* Frameworks */,
+				81BDE9CB275DE5BD00B924C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81BDE9CF275DE5BD00B924C5 /* PBXTargetDependency */,
+			);
+			name = hubspotTests;
+			productName = hubspotTests;
+			productReference = 81BDE9CD275DE5BD00B924C5 /* hubspotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81BDE9D7275DE5BD00B924C5 /* hubspotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BDE9E7275DE5BD00B924C5 /* Build configuration list for PBXNativeTarget "hubspotUITests" */;
+			buildPhases = (
+				81BDE9D4275DE5BD00B924C5 /* Sources */,
+				81BDE9D5275DE5BD00B924C5 /* Frameworks */,
+				81BDE9D6275DE5BD00B924C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81BDE9DA275DE5BD00B924C5 /* PBXTargetDependency */,
+			);
+			name = hubspotUITests;
+			productName = hubspotUITests;
+			productReference = 81BDE9D8275DE5BD00B924C5 /* hubspotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81BDE9AF275DE5BA00B924C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					81BDE9B6275DE5BA00B924C5 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					81BDE9CC275DE5BD00B924C5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 81BDE9B6275DE5BA00B924C5;
+					};
+					81BDE9D7275DE5BD00B924C5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 81BDE9B6275DE5BA00B924C5;
+					};
+				};
+			};
+			buildConfigurationList = 81BDE9B2275DE5BA00B924C5 /* Build configuration list for PBXProject "hubspot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81BDE9AE275DE5BA00B924C5;
+			productRefGroup = 81BDE9B8275DE5BA00B924C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81BDE9B6275DE5BA00B924C5 /* hubspot */,
+				81BDE9CC275DE5BD00B924C5 /* hubspotTests */,
+				81BDE9D7275DE5BD00B924C5 /* hubspotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81BDE9B5275DE5BA00B924C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BDE9C7275DE5BC00B924C5 /* LaunchScreen.storyboard in Resources */,
+				81BDE9C4275DE5BC00B924C5 /* Assets.xcassets in Resources */,
+				81BDE9C2275DE5BA00B924C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BDE9CB275DE5BD00B924C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BDE9D6275DE5BD00B924C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81BDE9B3275DE5BA00B924C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BDE9BF275DE5BA00B924C5 /* ViewController.swift in Sources */,
+				81BDE9BB275DE5BA00B924C5 /* AppDelegate.swift in Sources */,
+				81BDE9BD275DE5BA00B924C5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BDE9C9275DE5BD00B924C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BDE9D2275DE5BD00B924C5 /* hubspotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BDE9D4275DE5BD00B924C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BDE9DD275DE5BD00B924C5 /* hubspotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81BDE9CF275DE5BD00B924C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81BDE9B6275DE5BA00B924C5 /* hubspot */;
+			targetProxy = 81BDE9CE275DE5BD00B924C5 /* PBXContainerItemProxy */;
+		};
+		81BDE9DA275DE5BD00B924C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81BDE9B6275DE5BA00B924C5 /* hubspot */;
+			targetProxy = 81BDE9D9275DE5BD00B924C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81BDE9C0275DE5BA00B924C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81BDE9C1275DE5BA00B924C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81BDE9C5275DE5BC00B924C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81BDE9C6275DE5BC00B924C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81BDE9DF275DE5BD00B924C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81BDE9E0275DE5BD00B924C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81BDE9E2275DE5BD00B924C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZG2R83SFM;
+				INFOPLIST_FILE = hubspot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = norman.hubspot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81BDE9E3275DE5BD00B924C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZG2R83SFM;
+				INFOPLIST_FILE = hubspot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = norman.hubspot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81BDE9E5275DE5BD00B924C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZG2R83SFM;
+				INFOPLIST_FILE = hubspotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = norman.hubspotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hubspot.app/hubspot";
+			};
+			name = Debug;
+		};
+		81BDE9E6275DE5BD00B924C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZG2R83SFM;
+				INFOPLIST_FILE = hubspotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = norman.hubspotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hubspot.app/hubspot";
+			};
+			name = Release;
+		};
+		81BDE9E8275DE5BD00B924C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZG2R83SFM;
+				INFOPLIST_FILE = hubspotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = norman.hubspotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hubspot;
+			};
+			name = Debug;
+		};
+		81BDE9E9275DE5BD00B924C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZG2R83SFM;
+				INFOPLIST_FILE = hubspotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = norman.hubspotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hubspot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81BDE9B2275DE5BA00B924C5 /* Build configuration list for PBXProject "hubspot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BDE9DF275DE5BD00B924C5 /* Debug */,
+				81BDE9E0275DE5BD00B924C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BDE9E1275DE5BD00B924C5 /* Build configuration list for PBXNativeTarget "hubspot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BDE9E2275DE5BD00B924C5 /* Debug */,
+				81BDE9E3275DE5BD00B924C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BDE9E4275DE5BD00B924C5 /* Build configuration list for PBXNativeTarget "hubspotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BDE9E5275DE5BD00B924C5 /* Debug */,
+				81BDE9E6275DE5BD00B924C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BDE9E7275DE5BD00B924C5 /* Build configuration list for PBXNativeTarget "hubspotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BDE9E8275DE5BD00B924C5 /* Debug */,
+				81BDE9E9275DE5BD00B924C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81BDE9AF275DE5BA00B924C5 /* Project object */;
+}
