@@ -15,6 +15,13 @@
 		81BDE9C7275DE5BC00B924C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BDE9C5275DE5BC00B924C5 /* LaunchScreen.storyboard */; };
 		81BDE9D2275DE5BD00B924C5 /* hubspotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDE9D1275DE5BD00B924C5 /* hubspotTests.swift */; };
 		81BDE9DD275DE5BD00B924C5 /* hubspotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDE9DC275DE5BD00B924C5 /* hubspotUITests.swift */; };
+		81BDE9EC275DF95C00B924C5 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDE9EB275DF95C00B924C5 /* NetworkLayer.swift */; };
+		81BDE9EE275DFA1000B924C5 /* ModelTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDE9ED275DFA1000B924C5 /* ModelTypes.swift */; };
+		81BDE9F0275DFA4200B924C5 /* MessageReceivedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDE9EF275DFA4200B924C5 /* MessageReceivedRequest.swift */; };
+		81BDE9F2275DFA5100B924C5 /* MessageSentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDE9F1275DFA5100B924C5 /* MessageSentRequest.swift */; };
+		81BDE9F4275DFAA400B924C5 /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDE9F3275DFAA400B924C5 /* APIResource.swift */; };
+		81BDE9F6275DFB4300B924C5 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDE9F5275DFB4300B924C5 /* APIRequest.swift */; };
+		81BDE9F8275E024600B924C5 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 81BDE9F7275E024600B924C5 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		81BDE9D8275DE5BD00B924C5 /* hubspotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hubspotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BDE9DC275DE5BD00B924C5 /* hubspotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hubspotUITests.swift; sourceTree = "<group>"; };
 		81BDE9DE275DE5BD00B924C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BDE9EB275DF95C00B924C5 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		81BDE9ED275DFA1000B924C5 /* ModelTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTypes.swift; sourceTree = "<group>"; };
+		81BDE9EF275DFA4200B924C5 /* MessageReceivedRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageReceivedRequest.swift; sourceTree = "<group>"; };
+		81BDE9F1275DFA5100B924C5 /* MessageSentRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSentRequest.swift; sourceTree = "<group>"; };
+		81BDE9F3275DFAA400B924C5 /* APIResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResource.swift; sourceTree = "<group>"; };
+		81BDE9F5275DFB4300B924C5 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		81BDE9F7275E024600B924C5 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = ../../../../../Downloads/data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +113,16 @@
 		81BDE9B9275DE5BA00B924C5 /* hubspot */ = {
 			isa = PBXGroup;
 			children = (
+				81BDE9F7275E024600B924C5 /* data.json */,
 				81BDE9BA275DE5BA00B924C5 /* AppDelegate.swift */,
 				81BDE9BC275DE5BA00B924C5 /* SceneDelegate.swift */,
 				81BDE9BE275DE5BA00B924C5 /* ViewController.swift */,
+				81BDE9EB275DF95C00B924C5 /* NetworkLayer.swift */,
+				81BDE9F5275DFB4300B924C5 /* APIRequest.swift */,
+				81BDE9F3275DFAA400B924C5 /* APIResource.swift */,
+				81BDE9EF275DFA4200B924C5 /* MessageReceivedRequest.swift */,
+				81BDE9F1275DFA5100B924C5 /* MessageSentRequest.swift */,
+				81BDE9ED275DFA1000B924C5 /* ModelTypes.swift */,
 				81BDE9C0275DE5BA00B924C5 /* Main.storyboard */,
 				81BDE9C3275DE5BC00B924C5 /* Assets.xcassets */,
 				81BDE9C5275DE5BC00B924C5 /* LaunchScreen.storyboard */,
@@ -234,6 +255,7 @@
 				81BDE9C7275DE5BC00B924C5 /* LaunchScreen.storyboard in Resources */,
 				81BDE9C4275DE5BC00B924C5 /* Assets.xcassets in Resources */,
 				81BDE9C2275DE5BA00B924C5 /* Main.storyboard in Resources */,
+				81BDE9F8275E024600B924C5 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BDE9EC275DF95C00B924C5 /* NetworkLayer.swift in Sources */,
+				81BDE9F2275DFA5100B924C5 /* MessageSentRequest.swift in Sources */,
 				81BDE9BF275DE5BA00B924C5 /* ViewController.swift in Sources */,
+				81BDE9F0275DFA4200B924C5 /* MessageReceivedRequest.swift in Sources */,
+				81BDE9EE275DFA1000B924C5 /* ModelTypes.swift in Sources */,
 				81BDE9BB275DE5BA00B924C5 /* AppDelegate.swift in Sources */,
+				81BDE9F4275DFAA400B924C5 /* APIResource.swift in Sources */,
+				81BDE9F6275DFB4300B924C5 /* APIRequest.swift in Sources */,
 				81BDE9BD275DE5BA00B924C5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
